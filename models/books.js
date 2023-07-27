@@ -1,5 +1,5 @@
-const mongoose = require('mongoose')
-require('dotenv').config()
+const mongoose = require("mongoose");
+require("dotenv").config();
 
 const bookSchema = new mongoose.Schema({
   title: { type: String, required: true },
